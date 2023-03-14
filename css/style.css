@@ -38,7 +38,6 @@ a{
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    
   }
 
 .navbar-content {
@@ -263,7 +262,7 @@ select {
   }
 }
 
-@media only screen and (max-width: 627px) {
+@media only screen and (max-width: 647px) {
   .search-content-form-item {
     max-width: 100%;
     min-width: 100%;
@@ -347,6 +346,7 @@ select {
   cursor: pointer;
   position: relative;
   animation: mymove 1s reverse;
+  animation-timing-function: linear;
 }
 
 @keyframes mymove {

@@ -1,0 +1,36 @@
+.main-content{
+    margin: 12.5rem 5%;
+}
+
+.main-content-offer{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 0.5rem;
+    margin: 1rem 0;
+}
+
+.main-content-offer-image{
+    max-width: 500px;
+    margin: 0 0.4rem 0;
+}
+
+.main-content-offer-image img{
+    width: 100%;
+    border-radius: 8px;
+}
+
+@media only screen and (max-width:991px){
+    .main-content{
+        margin: 14.5rem 5%;
+    }
+    
+}
+
+
+@media only screen and (max-width:647px){
+    .main-content{
+        margin: 22.9rem 5%;
+    }
+    
+}
