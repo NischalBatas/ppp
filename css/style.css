@@ -312,15 +312,16 @@ select {
   }
 }
 
-/* Watch Video */
+/******************* Watch Video **********************************/
 .video-watch{
   position: absolute;
   top: 45%;
   left: 50%;
-  transition: 2;
   max-width: 500px;
   text-align: center;
+  
 }
+
 
 
 .video-watch-title p{
@@ -344,8 +345,14 @@ select {
   padding: 0.5rem;
   background-color: #ce1010;
   cursor: pointer;
+  position: relative;
+  animation: mymove 1s reverse;
 }
 
+@keyframes mymove {
+  from {left: 0px;}
+  to {left: 200px;}
+}
 
 .video-watch-list-name{
   font-size: 20px;
@@ -359,6 +366,7 @@ select {
   margin: 0 0 0 0.4rem;
   display: flex;
   align-items: center;
+  
 }
 
 .video-watch-list a:hover{
