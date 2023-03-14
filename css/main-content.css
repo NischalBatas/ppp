@@ -37,3 +37,55 @@
         margin: 0 0.1rem 0.5rem;
     }
 }
+
+.main-content-destination{
+    display: flex;
+    flex-direction: column;
+    margin: 4rem 0;
+}
+
+.main-content-destination-headline{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.main-content-destination-card{
+    /* padding: 1rem; */
+    display: grid;
+    grid-template-columns: repeat(auto-fill,200px);
+    gap: 5px;
+    flex-wrap: wrap;
+}
+
+.main-content-destination-card-item{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+}
+
+.main-content-destination-card-item-image{
+    max-width: 400px;
+    clip-path: circle(35%);
+}
+
+.main-content-destination-card-item-image img{
+    width: 100%;
+}
+
+.main-content-destination-card-item-name{
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.main-content-destination-card-item-bus{
+    font-size: 18px;
+    
+}
+
+.main-content-destination-card-item-bus p span{
+    font-weight: 600;
+}
