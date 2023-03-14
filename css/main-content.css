@@ -55,7 +55,7 @@
 .main-content-destination-card{
     /* padding: 1rem; */
     display: grid;
-    grid-template-columns: repeat(auto-fill,200px);
+    grid-template-columns: repeat(auto-fill,180px);
     gap: 5px;
     flex-wrap: wrap;
 }
