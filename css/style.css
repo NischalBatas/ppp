@@ -54,12 +54,12 @@ a{
   font-size: 20px;
   font-weight: 600;
   color: #fff;
+  display: none;
 }
 
 .navbar-content-lists ul {
   display: flex;
   padding: 0 1rem;
-  visibility: hidden;
 }
 
 .navbar-content-lists ul li {
