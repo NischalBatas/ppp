@@ -55,7 +55,7 @@
 .main-content-destination-card{
     /* padding: 1rem; */
     display: grid;
-    grid-template-columns: repeat(auto-fill,180px);
+    grid-template-columns: repeat(4,1fr);
     gap: 5px;
     flex-wrap: wrap;
 }
@@ -88,4 +88,15 @@
 
 .main-content-destination-card-item-bus p span{
     font-weight: 600;
+}
+
+@media only screen and (max-width:647px){
+    .main-content-destination-card{
+        /* padding: 1rem; */
+        display: grid;
+        grid-template-columns: repeat(auto-fill,180px);
+        gap: 5px;
+        flex-wrap: wrap;
+    }
+    
 }
