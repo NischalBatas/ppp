@@ -1,5 +1,5 @@
 .main-content{
-    margin: 12.5rem 5%;
+    margin: 12.5rem 5% 0;
 }
 
 .main-content-offer{
@@ -22,7 +22,7 @@
 
 @media only screen and (max-width:991px){
     .main-content{
-        margin: 14.5rem 5%;
+        margin: 14.5rem 5% 0;
     }
     
 }
@@ -30,7 +30,7 @@
 
 @media only screen and (max-width:647px){
     .main-content{
-        margin: 22.9rem 1%;
+        margin: 22.9rem 1% 0;
     }
     .main-content-offer-image{
         max-width: 800px;
@@ -101,4 +101,52 @@
         flex-wrap: wrap;
     }
     
+}
+
+
+
+/* Banner */
+.banner-content{
+    margin: 1rem 0;
+    background-color: rgb(10, 70, 94);
+    color: #fff;
+    font-size: 22px;
+    padding: 2rem 1rem;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.banner-lists-item{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    padding: 1rem;
+    text-align: center;
+    align-items: center;
+}
+
+.banner-lists-item-icon{
+    display: flex;
+}
+
+
+.banner-lists-package-item-name{
+    max-width: 150px;
+}
+
+
+
+@media only screen and (max-width:400px){
+    .banner-content{
+        margin: 1rem 0;
+        background-color: rgb(10, 70, 94);
+        color: #fff;
+        font-size: 22px;
+        padding: 2rem 1rem;
+        display: flex;
+        justify-content: space-evenly;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
 }
