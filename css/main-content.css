@@ -30,7 +30,10 @@
 
 @media only screen and (max-width:647px){
     .main-content{
-        margin: 22.9rem 5%;
+        margin: 22.9rem 1%;
     }
-    
+    .main-content-offer-image{
+        max-width: 800px;
+        margin: 0 0.1rem 0;
+    }
 }
