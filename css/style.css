@@ -48,8 +48,15 @@ a{
   justify-content: space-evenly;
   width: 100%;
   padding: 1rem 0;
+  position: fixed;
+  width: 100%;
+  transition: top 0.3s;
+  z-index: 99;
 }
-
+.navbar-scrolled{
+  background: rgb(5,28,60);
+  background: linear-gradient(90deg, rgba(5,28,60,1) 0%, rgba(9,30,103,1) 39%, rgba(7,50,108,1) 100%);
+}
 .navbar-content-logo {
   font-size: 20px;
   font-weight: 600;
@@ -71,6 +78,11 @@ a{
 .navbar-content-lists ul li a {
   text-decoration: none;
   color: #fff;
+}
+
+.navbar-content-lists ul li:hover {
+  background-color: #5ba9dd;
+  border-radius: 10px;
 }
 
 @media only screen and (max-width: 800px) {
