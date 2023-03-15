@@ -1,0 +1,44 @@
+.footer-lists-group1-contact-type-item .fa {
+    padding: 5px;
+    font-size: 16px;
+    width: 28px;
+    text-align: center;
+    text-decoration: none;
+    margin: 2px 4px;
+    border-radius: 50%;
+  }
+  
+  .footer-lists-group1-contact-type-item .fa:hover {
+      opacity: 0.7;
+  }
+  
+  .fa-facebook {
+    background: #0941b9;
+    color: white;
+  }
+  
+  .fa-twitter {
+    background: #0c78ca;
+    color: white;
+  }
+  
+  .footer-lists-group1-contact-type-item  .fa-youtube {
+    background: #bb0000;
+    color: white;
+  }
+  
+  .fa-instagram {
+    background: #f09433; 
+    background: -moz-linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%); 
+    background: -webkit-linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%); 
+    background: linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%); 
+ 
+    
+    color: rgb(255, 255, 255);
+  }
+
+  .fa-snapchat {
+    background: #fffc00;
+    color: white;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+  }

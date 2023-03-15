@@ -1,0 +1,66 @@
+.footer-lists{
+    display:flex ;
+    flex-direction: column;
+    padding: 1rem;
+    color: #fff;
+    
+    background: #2980b9;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #2c3e50, #2980b9);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #2c3e50, #2980b9); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+.footer-lists-group1{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    text-align: left;
+    align-items: flex-start;
+    padding: 1rem;
+    
+}
+
+.footer-lists-group1-company,
+.footer-lists-group1-resource,
+.footer-lists-group1-support,
+.footer-lists-group1-contact{
+    max-width: 310px;
+    padding: 1rem 2rem;
+
+}
+
+.footer-lists-group1-company-title,
+.footer-lists-group1-resource-title,
+.footer-lists-group1-support-title,
+.footer-lists-group1-contact-title{
+    font-size: 20px;
+    font-weight: 600;
+    padding: 0 0 0.5rem;
+
+}
+.footer-lists-group1-company-type-item a,
+.footer-lists-group1-resource-type-item a,
+.footer-lists-group1-support-type-item a,
+.footer-lists-group1-contact-type-item a{
+   color: #fff;
+
+}
+
+.footer-lists-group1-company-type-item,
+.footer-lists-group1-resource-type-item,
+.footer-lists-group1-support-type-item,
+.footer-lists-group1-contact-type-item{
+    font-size: 16px;
+    padding: 0.4rem 0;
+
+}
+
+.footer-lists-group1-contact-type-item{
+    display: flex;
+    align-items: center;
+}
+
+.footer-lists-group2{
+    display: flex;
+    justify-content: center;
+}
