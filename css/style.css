@@ -439,7 +439,7 @@ select {
     background-size: cover;
     -moz-background-size: cover;
     -webkit-background-size: cover;
-    z-index: 999;
+    z-index: 888;
     position: fixed;
 }
 
@@ -448,8 +448,15 @@ select {
   height: 100%;
 }
 
+.close-icons-first{
+  display: none;
+}
+
 .close-icons{
+  z-index: 889;
+  position: absolute;
   display: flex;
+  width: 100%;
   justify-content: flex-end;
   padding: 1rem;
   background: #29b4b9; /* fallback for old browsers */
@@ -465,25 +472,15 @@ select {
   ); 
   color: #fff;
   font-weight: 600;
+  position: fixed;
 }
 
 .close-icons i:hover{
   cursor: pointer;
-  background-color: #fff;
-  color: #1a9649;
+  scale: 1.2;
   padding: 0 0.2rem;
 }
 
-
-.ytp-impression-link,
-.ytp-related-title,
-.ytp-suggestions,
-.ytp-more-videos-view,
-.ytp-scroll-min{
-  display: none !important;
-  visibility: hidden !important;
-  height: 0px !important;
-}
 
 
 
