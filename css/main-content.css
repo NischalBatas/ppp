@@ -229,7 +229,7 @@ background: linear-gradient(to right, #191654, #43C6AC); /* W3C, IE 10+/ Edge, F
     flex-wrap: wrap;
     align-items: flex-start;
     position: relative;
-    animation: about_anim 4s alternate;
+    animation: about_anim 5s alternate;
     animation-timing-function: ease-in-out;
 }
 
@@ -414,3 +414,12 @@ background: linear-gradient(to right, #191654, #43C6AC); /* W3C, IE 10+/ Edge, F
 
 
 
+.app-mobile{
+    display: flex;
+    margin: -10rem auto 0;
+}
+
+
+.app-mobile img{
+    width: 100%;
+}

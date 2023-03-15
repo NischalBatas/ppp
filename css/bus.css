@@ -1,0 +1,224 @@
+.our-bus-group{
+    margin: 4rem 5% 5rem;
+    box-shadow: 0px 3px 15px 0px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+    padding: 2rem 1rem;
+    border-radius: 8px;
+}
+
+
+.bus-lists{
+    /* display: flex;
+    flex-wrap: wrap; */
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-gap:10px;
+    place-items: center;
+  
+
+}
+
+.bus-lists-title{
+    text-align: center;
+    font-size: 24px;
+    font-weight: 600;
+    margin: 0 0 1rem
+
+}
+
+
+.bus-lists-item{
+    padding: 1rem;
+    box-shadow: 0px 3px 15px 0px rgba(0, 0, 0, 0.1);
+    /* margin: 0 0 2rem 2rem; */
+    border-radius: 8px;
+    max-width: 280px;
+}
+
+
+.bus-lists-item-image{
+    max-width: 250px;
+}
+
+.bus-lists-item-image img{
+    width: 100%;
+    border-radius: 8px;
+}
+
+.bus-lists-item-name{
+    font-weight: 600;
+    font-size: 18px;
+}
+
+.bus-lists-item-price{
+    display: flex;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+
+.bus-lists-item-price p{
+   padding: 0 0 0 0.4rem;
+}
+
+
+.bus-lists-item-button button{
+    background-color: rgb(18, 168, 81);
+    color: #fff;
+    border: 0;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    margin: 0.5rem 0 0;
+}
+
+.bus-lists-item-button button:hover{
+    background-color: rgb(233, 108, 35);
+    scale: 1.1;
+}
+
+
+@media only screen and (max-width:1050px){
+
+    
+    
+    .bus-lists{
+        /* display: flex;
+        flex-wrap: wrap; */
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        grid-gap:10px;
+    
+    }
+}
+
+
+
+@media only screen and (max-width:920px){
+
+    
+    
+    .bus-lists{
+        /* display: flex;
+        flex-wrap: wrap; */
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        grid-gap:10px;
+    
+    }
+}
+
+
+@media only screen and (max-width:740px){
+
+    .our-bus-group{
+        margin: 2rem 2% 1rem;
+        box-shadow: 0px 3px 15px 0px rgba(0, 0, 0, 0.1);
+        background-color: #fff;
+        padding: 2rem 1rem;
+    
+    }
+    
+    .bus-lists{
+        /* display: flex;
+        flex-wrap: wrap; */
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        grid-gap:10px;
+    
+    }
+}
+
+
+@media only screen and (max-width:600px){
+
+    
+    .bus-lists{
+        /* display: flex;
+        flex-wrap: wrap; */
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        grid-gap:5px;
+    
+    }
+
+    .bus-lists-item{
+        padding: 0.8rem;
+        box-shadow: 0px 3px 15px 0px rgba(0, 0, 0, 0.1);
+        /* margin: 0 0 2rem 2rem; */
+        border-radius: 8px;
+        max-width: 280px;
+    }
+
+    .bus-lists-item-name{
+        font-weight: 600;
+        font-size: 15px;
+    }
+    
+    .bus-lists-item-price{
+        display: flex;
+        font-size: 12px;
+        font-weight: 600;
+    }
+
+    .bus-lists-item-button button{
+        background-color: rgb(18, 168, 81);
+        color: #fff;
+        border: 0;
+        padding: 0.35rem 0.5rem;
+        border-radius: 5px;
+        margin: 0.2rem 0 0;
+        font-size: 12px;
+    }
+    
+}
+
+
+
+@media only screen and (max-width:400px){
+ 
+}
+
+@media only screen and (max-width:327px){
+
+    
+    
+    .bus-lists{
+        /* display: flex;
+        flex-wrap: wrap; */
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        grid-gap:5px;
+    
+    }
+
+    .bus-lists-item{
+        padding: 0.8rem;
+        box-shadow: 0px 3px 15px 0px rgba(0, 0, 0, 0.1);
+        /* margin: 0 0 2rem 2rem; */
+        border-radius: 8px;
+        max-width: 280px;
+    }
+
+    .bus-lists-item-name{
+        font-weight: 600;
+        font-size: 15px;
+    }
+    
+    .bus-lists-item-price{
+        display: flex;
+        font-size: 12px;
+        font-weight: 600;
+    }
+
+    .bus-lists-item-button button{
+        background-color: rgb(18, 168, 81);
+        color: #fff;
+        border: 0;
+        padding: 0.35rem 0.5rem;
+        border-radius: 5px;
+        margin: 0.2rem 0 0;
+        font-size: 12px;
+    }
+    
+}
+
