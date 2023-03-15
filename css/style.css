@@ -330,9 +330,7 @@ select {
   left: 50%;
   max-width: 500px;
   text-align: center;
-  position: relative;
-  animation: mymove 1s alternate;
-  animation-timing-function: linear;
+
 
   
 }
@@ -351,8 +349,7 @@ select {
 .video-watch-description{
   font-size: 22px;
   color: #fff;
-  display: flex;
-  flex-wrap: wrap;
+
 }
 
 .video-watch-list a{
@@ -385,6 +382,9 @@ background: linear-gradient(to right, #6f0000, #200122); /* W3C, IE 10+/ Edge, F
   margin: 0 0 0 0.4rem;
   display: flex;
   align-items: center;
+  position: relative;
+  animation: mymove 1s alternate;
+  animation-timing-function: linear;
   
 }
 
