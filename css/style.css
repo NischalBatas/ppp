@@ -351,6 +351,8 @@ select {
 .video-watch-description{
   font-size: 22px;
   color: #fff;
+  display: flex;
+  flex-wrap: wrap;
 }
 
 .video-watch-list a{
@@ -391,7 +393,7 @@ background: linear-gradient(to right, #6f0000, #200122); /* W3C, IE 10+/ Edge, F
 }
 
 
-@media only screen and (max-width:800px){
+@media only screen and (max-width:900px){
   /* Watch Video */
  
   
