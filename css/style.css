@@ -448,14 +448,7 @@ select {
   height: 100%;
 }
 
-.ytp-share-button {
-  display: none !important;
-}
 
-/* Hide the YouTube video title */
-.ytp-title {
-  display: none !important;
-}
 
 .close-icons-first{
   display: none;
@@ -645,4 +638,20 @@ select {
     
   }
   
+  }
+
+  .ytp-title-link {
+    display: none;
+}
+
+.ytp-share-button {
+    display: none;
+}
+  .ytp-share-button {
+    display: none !important;
+  }
+  
+  /* Hide the YouTube video title */
+  .ytp-title {
+    display: none !important;
   }
