@@ -410,8 +410,13 @@ select {
 
 
 .youtube-video-frame{
-  
+  position: absolute;
+  top:20%;
+  left: 10%;
+  z-index: 9;
 }
+
+
 
 @media only screen and (max-width:900px){
   /* Watch Video */
