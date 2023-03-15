@@ -354,7 +354,8 @@ select {
   border-radius: 60px;
   max-width: 200px;
   padding: 0.5rem;
-  background-color: #ce1010;
+  background: rgb(117,34,195);
+background: linear-gradient(90deg, rgba(117,34,195,1) 0%, rgba(207,50,100,1) 78%, rgba(255,60,60,1) 100%);
   cursor: pointer;
   position: relative;
   animation: mymove 1s reverse;
