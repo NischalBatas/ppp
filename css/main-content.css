@@ -174,7 +174,16 @@ background: linear-gradient(to right, #191654, #43C6AC); /* W3C, IE 10+/ Edge, F
     display: flex;
     justify-content: space-evenly;
     flex-wrap: wrap;
+    position: relative;
+    animation: banner_anim 2s alternate;
+    animation-timing-function: linear;
 }
+
+@keyframes banner_anim {
+    from {opacity: 0%;}
+    to {opacity: 100%;}
+  }
+
 
 .banner-lists-item{
     display: flex;
@@ -188,6 +197,7 @@ background: linear-gradient(to right, #191654, #43C6AC); /* W3C, IE 10+/ Edge, F
 .banner-lists-item-icon{
     display: flex;
 }
+
 
 
 .banner-lists-package-item-name{
@@ -218,7 +228,16 @@ background: linear-gradient(to right, #191654, #43C6AC); /* W3C, IE 10+/ Edge, F
     margin: 2rem 0.5rem;
     flex-wrap: wrap;
     align-items: flex-start;
+    position: relative;
+    animation: about_anim 4s alternate;
+    animation-timing-function: ease-in-out;
 }
+
+@keyframes about_anim {
+    from {opacity: 0%;}
+    to {opacity: 100%;}
+  }
+
 
 .main-content-about-image{
     max-width: 900px;
@@ -346,7 +365,6 @@ background: linear-gradient(to right, #191654, #43C6AC); /* W3C, IE 10+/ Edge, F
     }
     
 }
-
 
 
 @media only screen and (max-width:928px){
