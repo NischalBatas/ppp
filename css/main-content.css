@@ -416,10 +416,18 @@ background: linear-gradient(to right, #191654, #43C6AC); /* W3C, IE 10+/ Edge, F
 
 .app-mobile{
     display: flex;
-    margin: 0 auto ;
+    margin: -10rem auto 0;
 }
 
 
 .app-mobile img{
     width: 100%;
+}
+
+
+@media only screen and (max-width:928px){
+    .app-mobile{
+        display: flex;
+        margin: -2rem auto 0;
+    }
 }
