@@ -330,9 +330,16 @@ select {
   left: 50%;
   max-width: 500px;
   text-align: center;
+  position: relative;
+  animation: mymove 1s alternate;
+  animation-timing-function: linear;
+
   
 }
-
+@keyframes mymove {
+  from {left: 80%;}
+  to {left: 50%px;}
+}
 
 
 .video-watch-title p{
@@ -354,18 +361,15 @@ select {
   border-radius: 60px;
   max-width: 200px;
   padding: 0.5rem;
-  background: rgb(117,34,195);
-background: linear-gradient(90deg, rgba(117,34,195,1) 0%, rgba(207,50,100,1) 78%, rgba(255,60,60,1) 100%);
   cursor: pointer;
-  position: relative;
-  animation: mymove 1s reverse;
-  animation-timing-function: linear;
+
+  background: #200122;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #6f0000, #200122);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #6f0000, #200122); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
 }
 
-@keyframes mymove {
-  from {left: 0px;}
-  to {left: 200px;}
-}
+
 
 .video-watch-list-name{
   font-size: 20px;

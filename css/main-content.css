@@ -164,8 +164,10 @@
 /* Banner */
 .banner-content{
     margin: 1rem 0;
-    background: rgb(5,28,60);
-    background: linear-gradient(90deg, rgba(5,28,60,1) 0%, rgba(9,30,103,1) 39%, rgba(7,50,108,1) 100%);  
+    background: #43C6AC;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #191654, #43C6AC);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #191654, #43C6AC); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
     color: #fff;
     font-size: 22px;
     padding: 2rem 1rem;
@@ -196,9 +198,7 @@
 
 @media only screen and (max-width:400px){
     .banner-content{
-        margin: 1rem 0;
-        background: rgb(5,28,60);
-        background: linear-gradient(90deg, rgba(5,28,60,1) 0%, rgba(9,30,103,1) 39%, rgba(7,50,108,1) 100%);      
+        margin: 1rem 0;    
         color: #fff;
         font-size: 22px;
         padding: 1rem 1rem;
