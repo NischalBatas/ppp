@@ -416,7 +416,7 @@ background: linear-gradient(to right, #191654, #43C6AC); /* W3C, IE 10+/ Edge, F
 
 .app-mobile{
     display: flex;
-    margin: -10rem auto 0;
+    margin: 0 auto ;
 }
 
 
