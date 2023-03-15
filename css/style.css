@@ -38,6 +38,14 @@ a{
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    position: relative;
+    animation: nav_image_anim 2s alternate;
+    animation-timing-function: ease-in-out;
+}
+
+@keyframes nav_image_anim {
+    from {opacity: 0%;}
+    to {opacity: 100%;}
   }
 
 .navbar-content {
