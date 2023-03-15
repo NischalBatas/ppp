@@ -35,3 +35,16 @@ valueDisplays.forEach((valueDisplay) => {
 
 
 
+
+
+$(document).ready(function(){
+  console.log('Hello')
+
+  $('.video-watch-list').click(()=>{
+    $('.add-video-youtube').toggleClass('youtube-video-frame')
+  })
+
+  $('.close-icons').click(()=>{
+    $('.add-video-youtube').removeClass('youtube-video-frame')
+  })
+});
