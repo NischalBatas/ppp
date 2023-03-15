@@ -200,11 +200,10 @@ background: linear-gradient(to right, #191654, #43C6AC); /* W3C, IE 10+/ Edge, F
     .banner-content{
         margin: 1rem 0;    
         color: #fff;
-        font-size: 22px;
+        font-size: 16px;
         padding: 1rem 1rem;
-        display: flex;
-        justify-content: space-evenly;
-        flex-direction: column;
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
         flex-wrap: wrap;
     }
 }
