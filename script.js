@@ -50,7 +50,9 @@ function onYouTubeIframeAPIReady() {
     videoId: 'y6jRRJ9aYwE', // Replace with your video ID
     playerVars: {
       autoplay: 0,
-      controls: 0
+      controls: 0,
+      showinfo: 0,
+      rel: 0
     }
   });
 }
