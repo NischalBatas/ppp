@@ -140,12 +140,13 @@
 
 .about-main-content-group2-background-clip-part1 img{
    width: 100%;
-   clip-path: circle(65%);
+   border-radius: 10px;
 }
 
 .about-main-content-group2-background-clip-part2{
 margin: auto 0;
 max-width: 450px;
+padding:  1rem 0 0;
 }
 
 .about-main-content-group2-background-clip-part2-title{
