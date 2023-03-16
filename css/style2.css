@@ -1,0 +1,680 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: manrope;
+}
+a {
+  text-decoration: none;
+}
+/* width */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px grey;
+  border-radius: 10px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: rgb(151, 151, 151);
+  border-radius: 10px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: rgb(5, 28, 60);
+}
+
+.navbar-image {
+  position: relative;
+  z-index: 10;
+  background-image: url("/images/bus3.jpg");
+  background-color: #cccccc;
+  height: 690px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  animation: nav_image_anim 2s alternate;
+  animation-timing-function: ease-in-out;
+}
+
+@keyframes nav_image_anim {
+  from {
+    opacity: 0%;
+  }
+  to {
+    opacity: 100%;
+  }
+}
+
+.navbar-content {
+  position: relative;
+  top: 0;
+  display: flex;
+  /* flex-wrap: wrap; */
+  justify-content: space-evenly;
+  width: 100%;
+  padding: 1rem 0;
+  position: fixed;
+  transition: top 0.3s;
+  z-index: 99;
+  background: #29b4b9; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #2c3e50,
+    #2980b9
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #2c3e50, #2980b9);
+ 
+}
+
+.navbar-scrolled {
+  background: #29b4b9; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #2c3e50,
+    #2980b9
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #2c3e50, #2980b9);
+}
+.navbar-content-logo {
+  font-size: 20px;
+  font-weight: 600;
+  color: #fff;
+}
+
+.navbar-content-lists ul {
+  display: flex;
+  padding: 0 1rem;
+}
+
+.navbar-content-lists ul li {
+  list-style-type: none;
+  padding: 0 1rem;
+  margin: 0 0.5rem;
+  font-size: 18px;
+}
+
+.navbar-content-lists ul li a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.navbar-content-lists ul li:hover {
+  background-color: #5ba9dd;
+  border-radius: 10px;
+}
+
+@media only screen and (max-width: 800px) {
+  .navbar-content-logo {
+    font-size: 18px;
+    font-weight: 600;
+    color: #fff;
+  }
+
+  .navbar-content-lists ul li {
+    list-style-type: none;
+    padding: 0 0.5rem;
+    margin: 0 0;
+    font-size: 14px;
+  }
+
+  .navbar-image {
+    position: relative;
+    z-index: 10;
+    background-image: url("/images/bus3.jpg");
+    background-color: #cccccc;
+    height: 350px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+
+  .navbar-image {
+    position: relative;
+    z-index: 10;
+    background-image: url("/images/bus3.jpg");
+    background-color: #cccccc;
+    height: 250px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+}
+
+@media only screen and (min-width: 600px) {
+  .bar-icons-first,
+  .close-icons-second {
+    display: none;
+  }
+}
+
+
+
+@media only screen and (max-width: 600px) {
+  .bar-icons-first,
+  .close-icons-second {
+    position: absolute;
+    display: block;
+    color: #fff;
+    z-index: 888;
+    /* padding: 0 0.5rem; */
+    left: 95%;
+    font-size: 14px;
+    top: 0.6%;
+    position: fixed;
+  }
+
+  .navbar-content {
+    position: absolute;
+    top: 0;
+    display: flex;
+    /* flex-wrap: wrap; */
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+    padding: 0.35rem 0;
+    position: fixed;
+    transition: top 0.3s;
+  }
+
+  .navbar-content-logo {
+    font-size: 14px;
+    font-weight: 600;
+    color: #fff;
+  }
+
+  .navbar-content-lists ul {
+    display: none;
+    flex-direction: column;
+    padding: 1rem 0;
+    margin: 0.4rem 0 0;
+    background: #29b4b9; /* fallback for old browsers */
+    background: -webkit-linear-gradient(
+      to right,
+      #2c3e50,
+      #2980b9
+    ); /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #2c3e50, #2980b9);
+  }
+
+
+  .navbar-content-lists2 ul {
+    display: flex;
+    flex-direction: column;
+    padding: 0.4rem 0;
+    margin: 0.2rem 0 0;
+    position: relative;
+    animation: banner_anim 1s alternate;
+    animation-timing-function: linear;
+
+    
+  }
+
+  .navbar-content-lists2{
+
+    display: flex;
+    flex-direction: column;
+    padding: 0.5rem 0;
+    margin: 0.2rem 0 0;
+    
+   
+  }
+  @keyframes banner_anim {
+    from {right: 0%;}
+    to {right: 100%;}
+  }
+
+  
+
+  .navbar-content-lists2 ul li {
+    margin: 0rem 0;
+    padding: 1rem 0;
+    font-size: 14px;
+    color: #1a5e96;
+  }
+}
+
+
+
+
+
+@media only screen and (max-width: 345px) {
+  .navbar-image {
+    position: relative;
+    z-index: 10;
+    background-image: url("/images/bus3.jpg");
+    background-color: #cccccc;
+    height: 250px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+}
+
+/* ********************** Search **************************** */
+
+.search-content {
+  display: flex;
+  justify-content: center;
+  top: 90%;
+  position: absolute;
+  left: 50%;
+  max-width: 1400px;
+  width: 100%;
+  transform: translate(-50%, 0%);
+  margin: 0 auto;
+}
+
+.search-content-form {
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0px 3px 15px 0px rgba(0, 0, 0, 0.1);
+  background-color: #fff;
+  border-radius: 8px;
+  padding: 1rem;
+  margin: 0 1rem 0;
+}
+
+.search-content-title {
+  text-align: center;
+  font-weight: 600;
+  font-size: 24px;
+  letter-spacing: 2px;
+  margin-bottom: 1rem;
+}
+
+.search-content-form-data {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.search-content-form-item {
+  max-width: 250px;
+  box-sizing: border-box;
+  display: block;
+  padding: 0.5rem 1rem;
+}
+
+.search-content-form-item-input input,
+select {
+  width: 200px;
+  display: flex;
+  border: 0;
+  outline: 0;
+  background-color: #ebebeb;
+  border-radius: 4px;
+  padding: 0.4rem 0.35rem;
+}
+
+.search-content-form-button {
+  padding: 0.5rem 1rem;
+}
+
+.search-content-form-button button {
+  width: 100%;
+  background-color: #1a5e96;
+  border-radius: 5px;
+  color: #fff;
+  font-weight: 600;
+  letter-spacing: 1px;
+  outline: 0;
+  border: 0;
+  padding: 0.4rem 0;
+  cursor: pointer;
+}
+
+.search-content-form-button button:hover {
+  background-color: #1a9649;
+}
+
+@media only screen and (max-width: 792px) {
+  .search-content-title {
+    text-align: center;
+    font-weight: 600;
+    font-size: 20px;
+    letter-spacing: 1px;
+    margin-bottom: 1rem;
+  }
+
+  .search-content-form-item {
+    max-width: 295px;
+    box-sizing: border-box;
+    padding: 0.5rem 1rem;
+    font-size: 12px;
+  }
+
+  .search-content-form-item-input input,
+  select {
+    width: 260px;
+    border: 0;
+    outline: 0;
+    background-color: #ebebeb;
+    border-radius: 4px;
+    padding: 0.4rem 0.35rem;
+  }
+}
+
+@media only screen and (max-width: 647px) {
+  .search-content-form-item {
+    max-width: 100%;
+    min-width: 100%;
+    box-sizing: border-box;
+    display: block;
+    padding: 0.5rem 1rem;
+  }
+
+  .search-content-form-item-input input,
+  select {
+    width: 100%;
+    flex: 1;
+    border: 0;
+    outline: 0;
+    background-color: #ebebeb;
+    border-radius: 4px;
+    padding: 0.4rem 0.35rem;
+  }
+}
+
+@media only screen and (max-width: 440px) {
+  .search-content-title {
+    text-align: center;
+    font-weight: 600;
+    font-size: 18px;
+    letter-spacing: 1px;
+    margin-bottom: 1rem;
+  }
+  .search-content-form-item {
+    max-width: 100%;
+    min-width: 100%;
+    box-sizing: border-box;
+
+    padding: 0.5rem 1rem;
+  }
+
+  .search-content-form-item-input input,
+  select {
+    width: 100%;
+    flex: 1;
+    border: 0;
+    outline: 0;
+    background-color: #ebebeb;
+    border-radius: 4px;
+    padding: 0.4rem 0.35rem;
+  }
+}
+
+/******************* Watch Video **********************************/
+.video-watch {
+  position: absolute;
+  top: 45%;
+  left: 50%;
+  max-width: 500px;
+  text-align: center;
+}
+
+.video-watch-title p {
+  font-size: 28px;
+  color: #fff;
+  font-weight: 600;
+}
+
+.video-watch-description {
+  font-size: 22px;
+  color: #fff;
+}
+
+.video-watch-list button {
+  display: flex;
+  justify-content: center;
+  margin: 0.5rem auto;
+  border: 1px solid #fff;
+  border-radius: 60px;
+  max-width: 200px;
+  padding: 0.5rem;
+  cursor: pointer;
+  position: relative;
+  animation: mymove 1s reverse;
+  animation-timing-function: linear;
+  background: #bb1919; /* fallback for old browsers */
+  align-items: baseline;
+}
+
+@keyframes mymove {
+  from {
+    left: 0px;
+  }
+  to {
+    left: 300px;
+  }
+}
+
+.video-watch-list-name {
+  font-size: 20px;
+  color: #fff;
+}
+
+.video-watch-list-icon {
+  font-size: 20px;
+  color: #fff;
+  margin: 0 0 0 0.4rem;
+  display: flex;
+  align-items: center;
+}
+
+.video-watch-list button:hover {
+  opacity: 0.8;
+}
+
+.add-video-youtube {
+  display: none;
+}
+
+.youtube-video-frame {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  display: block;
+  top: 0;
+  left: 0;
+  background-position: center;
+  background-repeat: no-repeat;
+  -webkit-transition: opacity 0.25s cubic-bezier(0, 0, 0.2, 1);
+  -o-transition: opacity 0.25s cubic-bezier(0, 0, 0.2, 1);
+  transition: opacity 0.25s cubic-bezier(0, 0, 0.2, 1);
+  background-size: cover;
+  -moz-background-size: cover;
+  -webkit-background-size: cover;
+  z-index: 888;
+  position: fixed;
+}
+
+.youtube-video-frame iframe {
+  width: 100%;
+  height: 100%;
+}
+
+.close-icons-first {
+  display: none;
+}
+
+.close-icons {
+  z-index: 889;
+  position: absolute;
+  display: flex;
+  width: 100%;
+  justify-content: flex-end;
+  padding: 1.5rem 1rem;
+  background: #a70e0e; /* fallback for old browsers */
+
+  color: #fff;
+  font-weight: 600;
+  position: fixed;
+}
+
+.close-icons i:hover {
+  cursor: pointer;
+  scale: 1.2;
+  padding: 0 0.2rem;
+}
+
+@media only screen and (max-width: 900px) {
+  /* Watch Video */
+
+  .video-watch-title p {
+    font-size: 14px;
+    color: #fff;
+    font-weight: 600;
+  }
+
+  .video-watch-description {
+    font-size: 14px;
+    color: #fff;
+  }
+
+  .video-watch-list button {
+    display: flex;
+    justify-content: center;
+    margin: 0.5rem auto;
+    border: 1px solid #fff;
+    border-radius: 60px;
+    max-width: 120px;
+    padding: 0.1rem;
+
+    cursor: pointer;
+  }
+
+  .video-watch-list-name {
+    font-size: 14px;
+    color: #fff;
+  }
+
+  .video-watch-list-icon {
+    font-size: 14px;
+    color: #fff;
+    margin: 0 0 0 0.2rem;
+    display: flex;
+    align-items: center;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  /* Watch Video */
+  .video-watch {
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transition: 2;
+    max-width: 500px;
+    text-align: center;
+  }
+
+  .video-watch-title p {
+    font-size: 12px;
+    color: #fff;
+    font-weight: 600;
+  }
+
+  .video-watch-description {
+    font-size: 10px;
+    color: #fff;
+  }
+
+  .video-watch-list button {
+    display: flex;
+    justify-content: center;
+    margin: 0.5rem auto;
+    border: 1px solid #fff;
+    border-radius: 60px;
+    max-width: 90px;
+    padding: 0.29rem;
+
+    cursor: pointer;
+  }
+
+  .video-watch-list-name {
+    font-size: 10px;
+    color: #fff;
+  }
+
+  .video-watch-list-icon {
+    font-size: 12px;
+    color: #fff;
+    margin: 0 0 0 0.2rem;
+    display: flex;
+    align-items: center;
+  }
+}
+
+@media only screen and (max-width: 345px) {
+  /* Watch Video */
+  .video-watch {
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transition: 2;
+    max-width: 500px;
+    text-align: center;
+  }
+
+  .video-watch-title p {
+    font-size: 11px;
+    color: #fff;
+    font-weight: 600;
+  }
+
+  .video-watch-description {
+    font-size: 10px;
+    color: #fff;
+  }
+
+  .video-watch-list button {
+    display: flex;
+    justify-content: center;
+    margin: 0.5rem auto;
+    border: 1px solid #fff;
+    border-radius: 60px;
+    max-width: 75px;
+    padding: 0.15rem;
+    cursor: pointer;
+  }
+
+  .video-watch-list-name {
+    font-size: 9px;
+    color: #fff;
+  }
+
+  .video-watch-list-icon {
+    font-size: 10px;
+    color: #fff;
+    margin: 0 0 0 0.2rem;
+    display: flex;
+    align-items: center;
+  }
+}
+
+.ytp-title-link {
+  display: none;
+}
+
+.ytp-share-button {
+  display: none;
+}
+.ytp-share-button {
+  display: none !important;
+}
+
+/* Hide the YouTube video title */
+.ytp-title {
+  display: none !important;
+}
