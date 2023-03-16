@@ -6,7 +6,7 @@
 .about-main-content-group1 {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-around;
+  justify-content: space-evenly;
 }
 
 .about-main-content-group1-info {
@@ -57,6 +57,8 @@
 }
 
 @media only screen and (max-width: 1058px) {
+    
+
     .about-main-content-group1-location {
       padding-bottom: 38%; /* 4:3 aspect ratio for smaller screens */
     }
@@ -64,13 +66,17 @@
   
 
 @media only screen and (max-width: 968px) {
+    .about-main-content-group1-info {
+        max-width: 960px;
+      }
+      
     .about-main-content {
         margin: 2.5rem 0 1rem;
         padding: 2rem 2%;
       }
       
   .about-main-content-group1-location {
-    width: 70%;
+    width: 100%;
     padding-bottom: 55%; /* 4:3 aspect ratio for smaller screens */
   }
 }
@@ -98,6 +104,71 @@
 
   .about-main-content-group1-location {
     width: 100%;
-    padding-bottom: 100%; /* 1:1 aspect ratio for smallest screens */
+    padding-bottom: 90%; /* 1:1 aspect ratio for smallest screens */
   }
+}
+
+
+.about-main-content-group2{
+    padding: 1rem 1rem;
+    margin: 4rem 9.5% 0;
+    background-color: rgb(255, 255, 255);
+    background-image: url('https://images.unsplash.com/photo-1460602594182-8568137446ce?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1176&q=80');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-shadow: 0px 3px 15px 0px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+  
+}
+
+
+.about-main-content-group2-background-clip{
+ display: flex;
+ justify-content: space-around;
+ flex-wrap: wrap;
+
+ padding: 1rem 0;
+
+}
+
+
+.about-main-content-group2-background-clip-part1{
+    max-width: 250px;
+}
+
+.about-main-content-group2-background-clip-part1 img{
+   width: 100%;
+   clip-path: circle(65%);
+}
+
+.about-main-content-group2-background-clip-part2{
+margin: auto 0;
+max-width: 450px;
+}
+
+.about-main-content-group2-background-clip-part2-title{
+    font-size: 18px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    color: rgb(255, 255, 255);
+}
+
+.about-main-content-group2-background-clip-part2-description{
+    font-size: 42px;
+    font-weight: 800;
+    -webkit-text-fill-color: transparent;
+    background: linear-gradient(89.97deg,#ae67fa 1.84%,#f49867 102.67%);
+    -webkit-background-clip: text;
+    text-transform: uppercase;
+   
+    letter-spacing: 2px;
+}
+
+.about-main-content-group2-background-clip-part2-name{
+    display: flex;
+    justify-content: flex-end;
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+    font-weight: 600;
 }
