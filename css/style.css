@@ -208,7 +208,7 @@ a {
     padding: 0.4rem 0;
     margin: 0.2rem 0 0;
     position: relative;
-    animation: banner_anim 2s alternate;
+    animation: banner_anim 1s alternate;
     animation-timing-function: linear;
 
     
