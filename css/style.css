@@ -460,18 +460,9 @@ select {
   display: flex;
   width: 100%;
   justify-content: flex-end;
-  padding: 1rem;
-  background: #29b4b9; /* fallback for old browsers */
-  background: -webkit-linear-gradient(
-    to right,
-    #2c3e50,
-    #2980b9
-  ); /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(
-    to right,
-    #2c3e50,
-    #2980b9
-  ); 
+  padding: 1.5rem 1rem;
+  background: #a70e0e; /* fallback for old browsers */
+ 
   color: #fff;
   font-weight: 600;
   position: fixed;
