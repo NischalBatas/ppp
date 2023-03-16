@@ -69,4 +69,37 @@ $(document).ready(function(){
       $('.close-icons-first').removeClass('close-icons')
       
   })
+
+
+
+
+$('.close-icons-second').hide()
+  // Slide Navbar Mobile
+  $('.bar-icons-first').click(()=>{
+    $('.navbar-content-lists').toggleClass('navbar-content-lists2');
+    $('.bar-icons-first').hide()
+    $('.close-icons-second').show()
+  })
+
+  $('.close-icons-second').click(()=>{
+    $('.navbar-content-lists').toggleClass('navbar-content-lists2');
+    $('.bar-icons-first').show()
+    $('.close-icons-second').hide()
+  })
+
+
+
+
+
 });
+
+
+
+
+
+
+
+
+
+
+

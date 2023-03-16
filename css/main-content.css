@@ -13,12 +13,16 @@
 .main-content-offer-image{
     max-width: 500px;
     margin: 0 0.4rem 0;
+    border-radius: 8px;
+
 }
 
 .main-content-offer-image img{
     width: 100%;
-    border-radius: 8px;
+  
 }
+
+
 @media only screen and (max-width:1456px){
     .main-content{
         margin: 12.5rem 1% 0;
