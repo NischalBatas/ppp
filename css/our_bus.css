@@ -173,7 +173,7 @@
     }
     
     .bus-content-main-intro-description{
-        font-size: 9px;
+        font-size: 11px;
         color: rgb(145, 145, 145);
         padding: 0.5rem 0 0;
         text-align: justify;
@@ -287,4 +287,12 @@
     .bus-content-main-interior-images-item{
         max-width: 200px;
     }
+
+    .bus-content-main-interior-description{
+        color: #858585;
+        text-align: justify;
+        font-size: 11px;
+    }
+
+    
 }
