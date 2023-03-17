@@ -1,7 +1,7 @@
 .our-bus-group{
-    margin: 4rem 5% 5rem;
-    box-shadow: 0px 3px 15px 0px rgba(0, 0, 0, 0.1);
-    background-color: #fff;
+    margin: 4rem 5% 1rem;
+    /* box-shadow: 0px 3px 15px 0px rgba(0, 0, 0, 0.1);
+    background-color: #fff; */
     padding: 2rem 1rem;
     border-radius: 8px;
 }
@@ -26,13 +26,27 @@
 
 }
 
+.bus-lists-title div {
+    height: 2px;
+    width: 90px;
+    background-color: #052141;
+    margin: 0.2rem auto 0;
+  }
+  
+  .bus-lists-title div:last-child {
+    width: 60px;
+    
+  }
+
 
 .bus-lists-item{
     padding: 1rem;
     box-shadow: 0px 3px 15px 0px rgba(0, 0, 0, 0.1);
-    /* margin: 0 0 2rem 2rem; */
     border-radius: 8px;
     max-width: 280px;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
 }
 
 
@@ -48,12 +62,16 @@
 .bus-lists-item-name{
     font-weight: 600;
     font-size: 18px;
+    color: #041650;
 }
 
 .bus-lists-item-price{
     display: flex;
-    font-size: 16px;
+    font-size: 14px;
     font-weight: 600;
+    padding: 0.5rem 0;
+    color: #7a7a7a;
+   
 }
 
 
@@ -61,18 +79,39 @@
    padding: 0 0 0 0.4rem;
 }
 
+.bus-lists-item-capacity{
+    font-size: 14px;
+    color: #7a7a7a;
+}
 
-.bus-lists-item-button button{
-    background-color: rgb(18, 168, 81);
-    color: #fff;
+
+.bus-lists-item div:nth-child(5){
+    width: 100%;
+    height: 2px;
+    background-color: rgb(167, 167, 167);
+    margin: 0.2rem 0;
+}
+
+
+.bus-lists-item-button{
+    padding: 0.5rem 0;
+}
+
+.bus-lists-item-button a{
+    color: #041650;
     border: 0;
     padding: 0.5rem 1rem;
     border-radius: 5px;
     margin: 0.5rem 0 0;
 }
 
-.bus-lists-item-button button:hover{
-    background-color: rgb(233, 108, 35);
+.bus-lists-item-button a i{
+  padding:  0 0 0 0.2rem;
+}
+
+
+.bus-lists-item-button a:hover{
+    color: #108336;
     scale: 1.1;
 }
 
@@ -160,14 +199,22 @@
         font-weight: 600;
     }
 
-    .bus-lists-item-button button{
-        background-color: rgb(18, 168, 81);
-        color: #fff;
+    .bus-lists-item-button a{
+        color: #041650;
         border: 0;
-        padding: 0.35rem 0.5rem;
+        padding: 0.5rem 1rem;
         border-radius: 5px;
-        margin: 0.2rem 0 0;
-        font-size: 12px;
+        margin: 0.5rem 0 0;
+    }
+    
+    .bus-lists-item-button a i{
+      padding:  0 0 0 0.2rem;
+    }
+    
+    
+    .bus-lists-item-button a:hover{
+        color: #108336;
+        scale: 1.1;
     }
     
 }
@@ -210,14 +257,22 @@
         font-weight: 600;
     }
 
-    .bus-lists-item-button button{
-        background-color: rgb(18, 168, 81);
-        color: #fff;
+    .bus-lists-item-button a{
+        color: #041650;
         border: 0;
-        padding: 0.35rem 0.5rem;
+        padding: 0.5rem 1rem;
         border-radius: 5px;
-        margin: 0.2rem 0 0;
-        font-size: 12px;
+        margin: 0.5rem 0 0;
+    }
+    
+    .bus-lists-item-button a i{
+      padding:  0 0 0 0.2rem;
+    }
+    
+    
+    .bus-lists-item-button a:hover{
+        color: #108336;
+        scale: 1.1;
     }
     
 }

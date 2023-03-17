@@ -1,0 +1,256 @@
+.bus-content-main{
+    margin: 5rem 2% 2rem;
+}
+
+
+.bus-content-main-intro{
+    display: flex;
+    justify-content: space-evenly;
+
+}
+.bus-content-main-intro-image{
+    max-width: 605px;
+    display: flex;
+    align-items: center;
+}
+
+.bus-content-main-intro-image img{
+   width: 100%;
+   border-radius: 8px;
+}
+
+.bus-content-main-intro-text{
+    max-width: 505px;
+    padding:  0 2rem;
+}
+
+.bus-content-main-intro-title{
+    font-size: 18px;
+    font-weight: 600;
+
+}
+
+
+.bus-content-main-intro-description{
+    font-size: 16px;
+    color: rgb(145, 145, 145);
+    padding: 1rem 0 0;
+    text-align: justify;
+
+}
+
+.bus-content-main-intro-button{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.bus-content-main-intro-button button{
+    color: #fff;
+    border: 0;
+    outline: 0;
+    background-color: rgb(13, 50, 131);
+    padding: 0.35rem 0.5rem;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+@media only screen and (max-width:1168px){
+    .bus-content-main-intro-text{
+        max-width: 395px;
+        padding:  0 0 0 1rem;
+    }
+
+    .bus-content-main-intro-title{
+        font-size: 16px;
+        font-weight: 600;
+    
+    }
+    
+    .bus-content-main-intro-description{
+        font-size: 15px;
+        color: rgb(145, 145, 145);
+        padding: 1rem 0 0;
+        text-align: justify;
+    
+    }
+}
+
+
+@media only screen and (max-width:868px){
+    .bus-content-main-intro-text{
+        max-width: 345px;
+        padding:  0 0 0 1rem;
+    }
+
+    .bus-content-main-intro-title{
+        font-size: 14px;
+        font-weight: 600;
+    
+    }
+    
+    .bus-content-main-intro-description{
+        font-size: 11px;
+        color: rgb(145, 145, 145);
+        padding: 0.5rem 0 0;
+        text-align: justify;
+    
+    }
+
+    .bus-content-main-intro-button button{
+        color: #fff;
+        border: 0;
+        outline: 0;
+        background-color: rgb(13, 50, 131);
+        padding: 0.25rem 0.4rem;
+        border-radius: 8px;
+        font-size: 10px;
+    }
+}
+
+@media only screen and (max-width:740px){
+
+    
+    .bus-content-main-intro{
+        display: flex;
+        justify-content: center;
+    
+    }
+
+    .bus-content-main-intro-text{
+        max-width: 345px;
+        padding:  0 0 0 1rem;
+    }
+
+    .bus-content-main-intro-title{
+        font-size: 12px;
+        font-weight: 600;
+    
+    }
+    
+    .bus-content-main-intro-description{
+        font-size: 9px;
+        color: rgb(145, 145, 145);
+        padding: 0.5rem 0 0;
+        text-align: justify;
+    
+    }
+
+    .bus-content-main-intro-button button{
+        color: #fff;
+        border: 0;
+        outline: 0;
+        background-color: rgb(13, 50, 131);
+        padding: 0.25rem 0.4rem;
+        border-radius: 8px;
+        font-size: 8px;
+    }
+}
+
+
+@media only screen and (max-width:600px){
+    .bus-content-main{
+        margin: 2.5rem 2% 1.5rem;
+    }
+}
+
+@media only screen and (max-width:550px){
+    .bus-content-main-intro{
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+    
+    }
+
+    .bus-content-main-intro-text{
+        max-width: 595px;
+        padding:  0.5rem 0.5rem 0;
+    }
+
+    .bus-content-main-intro-title{
+        font-size: 12px;
+        font-weight: 600;
+    
+    }
+    
+    .bus-content-main-intro-description{
+        font-size: 9px;
+        color: rgb(145, 145, 145);
+        padding: 0.5rem 0 0;
+        text-align: justify;
+    
+    }
+
+    .bus-content-main-intro-button button{
+        color: #fff;
+        border: 0;
+        outline: 0;
+        background-color: rgb(13, 50, 131);
+        padding: 0.25rem 0.4rem;
+        border-radius: 8px;
+        font-size: 8px;
+    }
+}
+
+
+.bus-content-main-services{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    background: #43C6AC;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #191654, #43C6AC);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #191654, #43C6AC); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    border-radius: 10px;
+    padding: 2rem 1rem;
+    text-align: center;
+    align-items: center;
+}
+
+.bus-content-main-services-item{
+    padding: 1rem;
+    min-width: 150px;
+    
+}
+
+.bus-content-main-services-item-icon{
+    color: #fff;
+    font-size: 50px;
+}
+
+
+.bus-content-main-services-item-name{
+    color: #fff;
+    font-weight: 600;
+}
+
+
+/* ************************* Interior ******************** */
+.bus-content-main-interior{
+    padding: 2rem 5%;
+}
+
+.bus-content-main-interior-title{
+    font-weight: 600;
+    font-size: 20px;
+    text-align: center;
+    align-items: center;
+}
+.bus-content-main-interior-images{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin: 1rem 0;
+}
+
+.bus-content-main-interior-images-item{
+ 
+    max-width: 290px;
+}
+.bus-content-main-interior-images-item img{
+    width: 100%;
+    border-radius: 8px;
+}
+
+.bus-content-main-interior-description{
+    color: #858585;
+    text-align: justify;
+}
