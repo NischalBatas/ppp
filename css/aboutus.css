@@ -159,6 +159,18 @@
 margin: auto 0;
 max-width: 450px;
 padding:  1rem 0 0;
+position: relative;
+animation: ceo_anim 3.5s alternate;
+animation-timing-function: linear;
+}
+
+@keyframes ceo_anim {
+from {
+  opacity: 0%;
+}
+to {
+  opacity: 100%;
+}
 }
 
 .about-main-content-group2-background-clip-part2-title{
