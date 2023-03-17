@@ -99,9 +99,10 @@ a {
   color: #fff;
 }
 
-.navbar-content-lists ul li:hover {
-  background-color: #5ba9dd;
-  border-radius: 10px;
+.navbar-content-lists ul li a:hover {
+  background-color: #1c5379;
+  border-radius: 4px;
+  padding: 0.2rem 0.5rem;
 }
 
 @media only screen and (max-width: 800px) {
