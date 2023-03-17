@@ -236,7 +236,7 @@
 }
 .bus-content-main-interior-images{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     flex-wrap: wrap;
     margin: 1rem 0;
 }
