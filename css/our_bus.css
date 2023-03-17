@@ -235,14 +235,13 @@
     align-items: center;
 }
 .bus-content-main-interior-images{
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
-    margin: 1rem 0;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-gap: 15px;
+    place-items: center;
 }
 
 .bus-content-main-interior-images-item{
- 
     max-width: 290px;
 }
 .bus-content-main-interior-images-item img{
@@ -253,4 +252,39 @@
 .bus-content-main-interior-description{
     color: #858585;
     text-align: justify;
+}
+
+@media only screen and (max-width:1068px){
+    .bus-content-main-interior-images{
+        display: grid;
+        grid-template-columns: repeat(4,1fr);
+        place-items: center;
+        
+        margin: 1rem 0;
+    }
+
+    .bus-content-main-interior-images-item{
+        max-width: 200px;
+    }
+}
+
+
+
+@media only screen and (max-width:768px){
+    .bus-content-main-interior-images{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        place-items: center;
+        margin: 1rem 0;
+    }
+
+    .bus-content-main-interior-images-item{
+        max-width: 250px;
+    }
+}
+
+@media only screen and (max-width:578px){
+    .bus-content-main-interior-images-item{
+        max-width: 200px;
+    }
 }
