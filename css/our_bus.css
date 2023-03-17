@@ -277,16 +277,9 @@
         place-items: center;
         margin: 1rem 0;
     }
-
-    .bus-content-main-interior-images-item{
-        max-width: 250px;
-    }
 }
 
 @media only screen and (max-width:578px){
-    .bus-content-main-interior-images-item{
-        max-width: 200px;
-    }
 
     .bus-content-main-interior-description{
         color: #858585;
