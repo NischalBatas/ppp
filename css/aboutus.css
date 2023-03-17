@@ -17,9 +17,21 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-direction: column;
   font-size: 24px;
   font-weight: 600;
   padding: 0.5rem 0;
+}
+
+.about-main-content-group1-info-title div {
+  height: 2px;
+  width: 110px;
+  background-color: #054128;
+  margin: 0.2rem auto 0;
+}
+
+.about-main-content-group1-info-title div:last-child {
+  width: 80px;
 }
 
 .about-main-content-group1-info-description {
