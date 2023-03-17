@@ -170,7 +170,13 @@
 
 
 @media only screen and (max-width:600px){
-
+    .bus-lists-title{
+        text-align: center;
+        font-size: 18px;
+        font-weight: 600;
+        margin: 0 0 1rem
+    
+    }
     
     .bus-lists{
         /* display: flex;
