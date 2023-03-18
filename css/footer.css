@@ -51,10 +51,13 @@
 .footer-lists-group1-company-type-item,
 .footer-lists-group1-resource-type-item,
 .footer-lists-group1-support-type-item,
-.footer-lists-group1-contact-type-item ,
-.footer-lists-group1-company-description{
+.footer-lists-group1-contact-type-item{
   font-size: 16px;
   padding: 0.35rem 0;
+}
+
+.footer-lists-group1-company-description{
+  font-size: 14px;
 }
 
 .footer-lists-group1-contact-type-item {
