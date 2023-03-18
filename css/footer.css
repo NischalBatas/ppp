@@ -51,7 +51,8 @@
 .footer-lists-group1-company-type-item,
 .footer-lists-group1-resource-type-item,
 .footer-lists-group1-support-type-item,
-.footer-lists-group1-contact-type-item {
+.footer-lists-group1-contact-type-item ,
+.footer-lists-group1-company-description{
   font-size: 16px;
   padding: 0.35rem 0;
 }
@@ -74,18 +75,7 @@
     align-content: center;
   }
 
-  .footer-lists-group1-company-title,
-  .footer-lists-group1-resource-title,
-  .footer-lists-group1-support-title,
-  .footer-lists-group1-contact-title {
-    font-size: 16px;
-    font-weight: 600;
-    padding: 0 0 0.5rem;
-  }
 
-  .footer-lists-group1-company-description {
-    font-size: 16px;
-  }
   
 }
 
@@ -110,7 +100,7 @@
 .footer-lists-group1-resource-type-item,
 .footer-lists-group1-support-type-item,
 .footer-lists-group1-contact-type-item,
-.footer-lists-group1-company-description {
+.footer-lists-group1-company-description{
   font-size: 14px;
   padding: 0.35rem 0;
 }
@@ -119,6 +109,7 @@
   .footer-lists-group1-resource,
   .footer-lists-group1-support,
   .footer-lists-group1-contact {
+    font-size: 16px;
     max-width: 310px;
     width: 100%;
     padding: 1rem 1rem;
