@@ -110,6 +110,11 @@
   padding: 0.35rem 0;
 }
 
+.footer-lists-group1-company-description p{
+  font-size: 14px;
+}
+
+
   .footer-lists-group1-company,
   .footer-lists-group1-resource,
   .footer-lists-group1-support,
