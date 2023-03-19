@@ -47,7 +47,7 @@ function onYouTubeIframeAPIReady() {
   player = new YT.Player('player', {
     height: '360',
     width: '540',
-    videoId: 'y6jRRJ9aYwE', // Replace with your video ID
+    videoId: '5yIBSkpn7Bk', // Replace with your video ID
     playerVars: {
       autoplay: 0,
       controls: 0,
