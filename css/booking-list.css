@@ -66,11 +66,7 @@
 }
 
 
-/* .detail-list{
-    border-radius: 8px;
-    background-color: #fff;
-    padding: 0.5rem;
-} */
+
 
 
 .booking-main-list-item-fare,
@@ -78,7 +74,7 @@
 .booking-main-list-item-capacity,
 .booking-main-list-item-number{
     font-weight: 600;
-    padding: 0.2rem 1rem;
+    padding: 0.2rem 0.4rem;
    
    
 }
