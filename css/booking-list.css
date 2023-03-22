@@ -15,7 +15,6 @@
     background-color: rgb(14, 14, 14);
     border-radius: 55px;
     margin: 0 auto;  
-    
 }
 
 
@@ -34,7 +33,7 @@
     display: grid;
     grid-template-columns: repeat(4,1fr);
     place-items: center;
-    margin: 2rem 0 1rem;
+    margin: 1rem 0 1rem;
 }
 
 .booking-main-list-item{
