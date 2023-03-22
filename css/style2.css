@@ -115,7 +115,7 @@ a {
   
 }
 
-@media only screen and (max-width: 800px) {
+@media only screen and (max-width: 900px) {
   .navbar-content-logo {
     font-size: 18px;
     font-weight: 600;
@@ -164,7 +164,7 @@ a {
 
 
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 635px) {
   .bar-icons-first,
   .close-icons-second {
     position: absolute;

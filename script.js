@@ -103,3 +103,19 @@ $('.close-icons-second').hide()
 
 
 
+
+
+var seat_capacity=30;
+for(i=1; i<=seat_capacity; i++){
+  const dom2=document.createElement('a')
+  dom2.innerText=i
+  dom2.classList.add('seat_capcity2')
+  dom2.classList.add(`seat_id_${i}`)
+  seats.appendChild(dom2)
+
+  dom2.addEventListener('click',()=>{
+    dom2.classList.toggle('seat-booked')
+  })
+}
+
+
